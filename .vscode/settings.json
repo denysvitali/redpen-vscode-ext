@@ -1,0 +1,27 @@
+{
+	"editor.insertSpaces": false,
+	"tslint.enable": true,
+	"typescript.tsc.autoDetect": "off",
+	"typescript.preferences.quoteStyle": "single",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"MicroPython.executeButton": [
+		{
+			"text": "▶",
+			"tooltip": "Run",
+			"alignment": "left",
+			"command": "extension.executeFile",
+			"priority": 3.5
+		}
+	],
+	"MicroPython.syncButton": [
+		{
+			"text": "$(sync)",
+			"tooltip": "sync",
+			"alignment": "left",
+			"command": "extension.execute",
+			"priority": 4
+		}
+	]
+}
